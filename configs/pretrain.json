@@ -1,14 +1,14 @@
 {
     "combine_datasets": ["flickr", "mixed"],
     "combine_datasets_val": ["gqa", "flickr", "refexp"],
-    "coco_path": "",
-    "vg_img_path": "",
-    "flickr_img_path": "",
-    "refexp_ann_path": "mdetr_annotations",
-    "flickr_ann_path": "mdetr_annotations",
-    "gqa_ann_path": "mdetr_annotations",
+    "coco_path": "/ceph/hpc/home/eudavider/repository/mdetr/datasets/COCO/images/",
+    "vg_img_path": "/ceph/hpc/home/eudavider/repository/mdetr/datasets/GQA_images/",
+    "flickr_img_path": "/ceph/hpc/home/eudavider/repository/mdetr/datasets/flickr30k/flickr30k_images/",
+    "refexp_ann_path": "/ceph/hpc/home/eudavider/repository/mdetr/datasets/mdetr_annotations/",
+    "flickr_ann_path": "/ceph/hpc/home/eudavider/repository/mdetr/datasets/mdetr_annotations/",
+    "gqa_ann_path": "/ceph/hpc/home/eudavider/repository/mdetr/datasets/mdetr_annotations/",
     "refexp_dataset_name": "all",
     "GT_type": "separate",
-    "flickr_dataset_path": ""
+    "flickr_dataset_path": "/ceph/hpc/home/eudavider/repository/mdetr/datasets/flickr30k/flickr30k_entities/"
 }
 

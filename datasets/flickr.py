@@ -15,7 +15,7 @@ class FlickrDetection(ModulatedDetection):
 
 def build(image_set, args):
 
-    img_dir = Path(args.flickr_img_path) / f"{image_set}"
+    img_dir = Path(args.flickr_img_path)
 
     if args.GT_type == "merged":
         identifier = "mergedGT"
